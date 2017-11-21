@@ -1,0 +1,1 @@
+export const suggest = f => f

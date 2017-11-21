@@ -1,0 +1,41 @@
+{
+  "name": "random-groups",
+  "version": "0.0.0",
+  "description": "Suggests multiple group sizes from an array and randomy group it",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress -p",
+    "test": "jest",
+    "dev": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonTahoe/random-groups.git"
+  },
+  "keywords": [
+    "random",
+    "groupping",
+    "groups",
+    "suggestions",
+    "array",
+    "students",
+    "kids",
+    "classroom"
+  ],
+  "author": "Alex Banks (MoonTahoe)",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/MoonTahoe/random-groups/issues"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^21.2.1",
+    "webpack": "^3.8.1"
+  }
+}

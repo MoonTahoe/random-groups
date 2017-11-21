@@ -1,7 +1,7 @@
 {
   "name": "random-groups",
-  "version": "0.0.0",
-  "description": "Suggests multiple group sizes from an array and randomy group it",
+  "version": "0.0.1",
+  "description": "Suggests multiple group sizes from an array and randomly groups that array.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --progress -p",

@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 8.9.1
+  - 9.2.0
+
+deploy:
+  provider: npm
+  skip_cleanup: true
+  email: alex@moonhighway.com
+  api_key:
+    secure: F+ViTZ9z69MMxshTefxkahrMugZrXDNHkH9jShJq0yCXS9Hg9d6svVO5dmV58vrpW257iezNwhcpmSOtV/Zk79R9J5QczDCNznEaZUwIrodgaNKh4ZHbsLv+OyWZAPFd0irt3dnbiuQwx7/7ygm59ZHV5heVP78r8bYxvfj4ESLnW2yq85eZnNqAY79mCqZqqdIyc0ZXF6ELmiIAhpji1SILmiRnInd9OxomfqS+TszYQxACRi1kaH5EnbIyKSqV/aYH8hkQ0rZYGSoHCxmN6bg8C3fa7K+RQQBbxGMTEN059lNQmQskTGjnIqZJ6ZlTLZIrwsnaG9+O/63o9LNZULO2fq3D5UcPZZjgft3Wwhd+K+Qqn78AJJaJWOo7gYnNLvxr/tWaFIt1vwDXxcEYmJe1BIuqtPV8xI0RyGsoNGhSNkH3yD4aFazg1xsSxEAMLgbySysdobhTaf1E6EMQgTtF+Yz4PBnKNE4qpXGR1ndFA09VdHZPFG857Ux//7Za7oH2kRBKwF9qRTXTyX2rygXZl1/0gedIOL2URS3/CC6ahFSpDCFfr0m3m7nRVoR8bBQYqlY6OhzYAd0FHwatsaW/MsVgxSIiK8pjVnliac5/HZ9p4MCioLkjlXIivY+7J4JVnTBDQFtN9wjQAR/yKJZ5bBev1cOqQ2PMcPPKhfg=
+  on:
+    tags: true
+    repo: MoonTahoe/random-groups
